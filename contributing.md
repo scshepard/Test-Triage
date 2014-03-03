@@ -14,7 +14,7 @@ This document discusses how to create test files. Although the following documen
 * Fork the repo and work against your fork. 
 * All tests must be fully functioning examples of a specific item.
 * All new test files must be standalone HTML files. See File Structure, below.
-* New tests must have a related [issue](https://github.com/Open-A11y-Testing/Test-Triage/issues). Describe specifically what is needed and why. (Hint, it might be cool to look into )
+* New tests must have a related [issue](https://github.com/Open-A11y-Testing/Test-Triage/issues). Describe specifically what is needed and why. (Hint, it might be cool to look in the issues list to see if there's already an issue open for the feature you're interested in)
 * Issue your pull request against that specific issue. Describe the new test, including what it is intended to demonstrate and any known platform issues.
 
 ### File Structure
