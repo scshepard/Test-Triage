@@ -18,7 +18,7 @@ This document discusses how to create test files. Although the following documen
 * Issue your pull request against that specific issue. Describe the new test, including what it is intended to demonstrate and any known platform issues.
 
 ### File Structure
-* Test files must be HTML. Do not create test files which rely on server-side preprocessing as there's no guarantee that your favorite server-side language is available.
+* Test files must be HTML. Do not create test files which rely on server-side preprocessing as there's no guarantee that your favorite server-side language is available. Plain HTML facilitates migration to any server.
 * Use the bare minimum markup necessary for the test
 * Use HTML5 doctype
 * All markup (including CSS) must be valid.
@@ -26,10 +26,11 @@ This document discusses how to create test files. Although the following documen
 * Use no polyfills or vendor prefixes unless **explicitly** required for the test. 
 * Use no CSS frameworks unless **explicitly** required for the test
 * JavaScript framework usage must be minimal. For instance, jQuery use is fine, but inclusion of numerous additional plugins should be limited to only whatever is necessary for the test. (A copy of jquery 1.11.0 is in the global-assets folder)
+* Do not link to CDN hosted assets. All required assets must be included with your submission.
 * Save all files with UTF-8 encoding
 
 ### File naming and organization
-All of the test files and related assets will be dumped in the same root folder as all the others. Consequently we must ensure that everything is uniquely named, in order to avoid conflicts.
+All of the test files and related assets will be dumped in the same root folder as all the others, and there may eventually be hundreds of tests. Consequently we must ensure that everything is uniquely named, in order to avoid conflicts.
 
 * All test files must be accompanied with a description file.
 * All file names **must** adhere to the following naming convention. Pull requests that do not follow this convention will be rejected, because the test system requires it:
