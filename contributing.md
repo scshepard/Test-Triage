@@ -41,6 +41,8 @@ All of the test files and related assets will be dumped in the same root folder 
   
 ## Helpful Hints
 * Please test your own work before issuing a pull request. Due to the expected volume of tests, it is likely we'll only give the tests a quick throttle. If anything looks "off" we'll probably reject it with a terse message saying it is broken.
-* Related to the above, you should possibly run your HTML through the [HTML Validator](http://validator.w3.org/), your CSS through the [CSS Validator](http://jigsaw.w3.org/css-validator/) and use [JSHint](http://www.jshint.com/install/) and/ or [JSLint](http://www.jslint.com/) on your JavaScript.
+* This repo contains a Gruntfile that includes functionality for HTML Validation and CSS Linting. If you're familiar with Grunt, you can use this to check your work.
+* If you're disinclined to use the Grunt task, at least run your HTML through the [HTML Validator](http://validator.w3.org/), your CSS through the [CSS Validator](http://jigsaw.w3.org/css-validator/) and use [JSHint](http://www.jshint.com/install/) and/ or [JSLint](http://www.jslint.com/) on your JavaScript.
+*
 
 Note: it is entirely possible that we will eventually create an automated build process to do some of the above validation and linting ahead of time, so please try to facilitate future sustainability by doing this on your own first.
