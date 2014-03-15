@@ -1,0 +1,15 @@
+{
+  "name": "test-triage",
+  "version": "0.1.0",
+  "description": "Open Accessibility framework for testing browser/AT product behaviors.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Open-A11y-Testing/Test-Triage.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-html-validation": "^0.1.13",
+    "grunt-contrib-csslint": "^0.2.0"
+  }
+}
