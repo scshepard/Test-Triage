@@ -1,0 +1,17 @@
+
+.masthead {
+    font-size: 2em;
+    text-align: center;
+    background: #000;
+    color: #f33;
+}
+
+.article-title {
+    padding-left: 0.2em;
+    color: #900;
+}
+
+.article-subhead {
+      text-decoration: bold;
+      padding-left: 0.4em;
+}
