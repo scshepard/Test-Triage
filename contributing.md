@@ -4,6 +4,11 @@ The goal of the Open Accessibility Testing effort is to get a large amount of te
 * Tests
 * Participants
 
+The purpose of this repository is to gather together the test cases.
+
+
+## How to contribute
+
 This document discusses how to create test files. Although the following document may appear quite restrictive, it actually isn't.  At a high level, what we want from each test is simple:
 
 * Single HTML file for each test
