@@ -9,7 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.4",
-    "grunt-html-validation": "^0.1.13",
+    "grunt-html-validation": "^0.1.14",
     "grunt-contrib-csslint": "^0.2.0"
   }
 }
