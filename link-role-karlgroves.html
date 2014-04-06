@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>link-role-karlgroves</title>
+    <link rel="stylesheet" type="text/css" href="/global-assets/css/global.css" />
+    <script src="global-assets/jquery-1.11.0.min.js"></script>
+    <style type="text/css">
+        *[role='link']{
+            border-bottom: 1px solid #666;
+        }
+        *[role='link']:focus, *[role='link']:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<span role="link" tabindex="0" data-target="http://www.google.com">Google</span>
+
+<script>
+$(document).ready(function(){
+    $('[role="link"]').on('click keydown', function(){
+        var loc = $(this).attr('data-target');
+        window.location=loc;
+    });
+});
+</script>
+</body>
+</html>
