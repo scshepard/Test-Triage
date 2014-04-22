@@ -26,7 +26,7 @@ a, abbr, address, article, aside, audio, b, bdi, bdo, blockquote, br, button, ca
 
 - dt,dd
 - li
-- tbody,td,th,tfooter,theader
+- tbody,td,th,tfoot,thead
 
 
 ## Filtered Document roles
