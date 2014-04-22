@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Link with aria-label text - Open Testing</title>
+    <link rel="stylesheet" type="text/css" href="/global-assets/css/global.css" />
+</head>
+<body>
+
+<input type="hidden" name="metadata__is_the_spec_clear" value="true">
+<input type="hidden" name="metadata__element_to_test" value="a">
+<input type="hidden" name="metadata__attributes_to_test" value="aria-label">
+<input type="hidden" name="metadata__assertion" value="aria-label text is revealed, and the text node inside the link is not.">
+
+<h2>Please follow these steps</h2>
+
+<ol>
+    <li>Use assistive technology.</li>
+    <li>Locate the link.</li>
+    <li>Read the link text.</li>
+</ol>
+
+<h2>What to expect</h2>
+
+<p>The link text should be: Goodbye</p>
+
+<h2>Here's the thing to test</h2>
+
+<a href="/" aria-label="Goodbye">Hello</a>
+
+<h2>End of test</h2>
+
+<p><a href="/">Open Accessibility</a> published this test on <time datetime="2014-03-01 23:45">March 1, 2014</time>.</p>
+</body>
+</html>
